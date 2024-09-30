@@ -1,0 +1,14 @@
+/Users/canerkapisiz/Full Stack/AbstractProject/AbstractProject/bin/Debug/net8.0/AbstractProject
+/Users/canerkapisiz/Full Stack/AbstractProject/AbstractProject/bin/Debug/net8.0/AbstractProject.deps.json
+/Users/canerkapisiz/Full Stack/AbstractProject/AbstractProject/bin/Debug/net8.0/AbstractProject.runtimeconfig.json
+/Users/canerkapisiz/Full Stack/AbstractProject/AbstractProject/bin/Debug/net8.0/AbstractProject.dll
+/Users/canerkapisiz/Full Stack/AbstractProject/AbstractProject/bin/Debug/net8.0/AbstractProject.pdb
+/Users/canerkapisiz/Full Stack/AbstractProject/AbstractProject/obj/Debug/net8.0/AbstractProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/canerkapisiz/Full Stack/AbstractProject/AbstractProject/obj/Debug/net8.0/AbstractProject.AssemblyInfoInputs.cache
+/Users/canerkapisiz/Full Stack/AbstractProject/AbstractProject/obj/Debug/net8.0/AbstractProject.AssemblyInfo.cs
+/Users/canerkapisiz/Full Stack/AbstractProject/AbstractProject/obj/Debug/net8.0/AbstractProject.csproj.CoreCompileInputs.cache
+/Users/canerkapisiz/Full Stack/AbstractProject/AbstractProject/obj/Debug/net8.0/AbstractProject.dll
+/Users/canerkapisiz/Full Stack/AbstractProject/AbstractProject/obj/Debug/net8.0/refint/AbstractProject.dll
+/Users/canerkapisiz/Full Stack/AbstractProject/AbstractProject/obj/Debug/net8.0/AbstractProject.pdb
+/Users/canerkapisiz/Full Stack/AbstractProject/AbstractProject/obj/Debug/net8.0/AbstractProject.genruntimeconfig.cache
+/Users/canerkapisiz/Full Stack/AbstractProject/AbstractProject/obj/Debug/net8.0/ref/AbstractProject.dll

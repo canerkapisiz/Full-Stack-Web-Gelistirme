@@ -1,0 +1,14 @@
+/Users/canerkapisiz/Full Stack/inheritanceProject/inheritanceProject/bin/Debug/net8.0/inheritanceProject
+/Users/canerkapisiz/Full Stack/inheritanceProject/inheritanceProject/bin/Debug/net8.0/inheritanceProject.deps.json
+/Users/canerkapisiz/Full Stack/inheritanceProject/inheritanceProject/bin/Debug/net8.0/inheritanceProject.runtimeconfig.json
+/Users/canerkapisiz/Full Stack/inheritanceProject/inheritanceProject/bin/Debug/net8.0/inheritanceProject.dll
+/Users/canerkapisiz/Full Stack/inheritanceProject/inheritanceProject/bin/Debug/net8.0/inheritanceProject.pdb
+/Users/canerkapisiz/Full Stack/inheritanceProject/inheritanceProject/obj/Debug/net8.0/inheritanceProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/canerkapisiz/Full Stack/inheritanceProject/inheritanceProject/obj/Debug/net8.0/inheritanceProject.AssemblyInfoInputs.cache
+/Users/canerkapisiz/Full Stack/inheritanceProject/inheritanceProject/obj/Debug/net8.0/inheritanceProject.AssemblyInfo.cs
+/Users/canerkapisiz/Full Stack/inheritanceProject/inheritanceProject/obj/Debug/net8.0/inheritanceProject.csproj.CoreCompileInputs.cache
+/Users/canerkapisiz/Full Stack/inheritanceProject/inheritanceProject/obj/Debug/net8.0/inheritanceProject.dll
+/Users/canerkapisiz/Full Stack/inheritanceProject/inheritanceProject/obj/Debug/net8.0/refint/inheritanceProject.dll
+/Users/canerkapisiz/Full Stack/inheritanceProject/inheritanceProject/obj/Debug/net8.0/inheritanceProject.pdb
+/Users/canerkapisiz/Full Stack/inheritanceProject/inheritanceProject/obj/Debug/net8.0/inheritanceProject.genruntimeconfig.cache
+/Users/canerkapisiz/Full Stack/inheritanceProject/inheritanceProject/obj/Debug/net8.0/ref/inheritanceProject.dll

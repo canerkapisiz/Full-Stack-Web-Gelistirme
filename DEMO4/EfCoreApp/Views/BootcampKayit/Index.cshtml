@@ -1,0 +1,27 @@
+﻿@model IEnumerable<BootcampKayit>
+
+<h2>Öğrenci Bootcamp Listesi</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th style="width: 125px;">@Html.DisplayNameFor(m => m.KayitId)</th>
+            <th>@Html.DisplayNameFor(m => m.Ogrenci.AdSoyad)</th>
+            <th>@Html.DisplayNameFor(m => m.Bootcamp.BootcampName)</th>
+            <th style="width: 160px;">Setting</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.KayitId)</td>
+                <td>@Html.DisplayFor(modelItem => item.Ogrenci.AdSoyad)</td>
+                <td>@Html.DisplayFor(modelItem => item.Bootcamp.BootcampName)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.OgrenciId" class="btn btn-primary">Düzenle</a>
+                    <a asp-action="Delete" asp-route-id="@item.OgrenciId" class="btn btn-danger">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

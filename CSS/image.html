@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Image</title>
+        <style>
+            .div-image {
+                width: 150px;
+                height: 150px;
+                background-image: url('CanerKapısız.png');
+                background-size: cover;
+            }
+            .div-repeat {
+                width: 250px;
+                height: 250px;
+                background-image: url('CanerKapısız.png');
+                background-repeat: repeat-x;
+
+                background-position: center center;
+                background-size: cover;
+            }
+            .img-size {
+                width: 250px;
+                height: 250px;
+                object-fit: contain;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div-image"></div>
+        <div class="div-repeat"></div>
+        <img src="CanerKapısız.png" alt="" class="img-size" />
+    </body>
+</html>

@@ -1,0 +1,29 @@
+@model Egitmen
+
+<form asp-controller="Egitmen" asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label asp-for="EgitmenAd" class="form-label"></label>
+        <input asp-for="EgitmenAd" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label asp-for="EgitmenSoyad" class="form-label"></label>
+        <input asp-for="EgitmenSoyad" class="form-control">
+    </div>
+    <div class="mb-3">
+        <input type="file" name="imageFile" id="imageFile" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Telefon" class="form-label"></label>
+        <input asp-for="Telefon" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Eposta" class="form-label"></label>
+        <input asp-for="Eposta" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label asp-for="BaslamaTarihi" class="form-label"></label>
+        <input asp-for="BaslamaTarihi" class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>

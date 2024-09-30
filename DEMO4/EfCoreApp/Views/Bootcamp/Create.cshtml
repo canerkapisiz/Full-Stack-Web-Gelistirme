@@ -1,0 +1,19 @@
+@model BootcampViewModel
+
+<form asp-controller="Bootcamp" asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label asp-for="BootcampName" class="form-label"></label>
+        <input asp-for="BootcampName" class="form-control">
+    </div>
+    <div class="mb-3">
+        <input type="file" name="imageFile" id="imageFile" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label asp-for="EgitmenId" class="form-label"></label>
+        <select asp-for="EgitmenId" asp-items="ViewBag.Egitmenler" class="form-select">
+            <option value="">Seçiniz</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>

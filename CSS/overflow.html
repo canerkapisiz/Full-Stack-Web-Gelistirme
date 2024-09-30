@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Overflow</title>
+        <style>
+            .container {
+                width: 200px;
+                height: 100px;
+                margin-bottom: 70px;
+                border: 1px solid #000;
+            }
+            .visible {
+                overflow: visible;
+            }
+            .hidden {
+                overflow: hidden;
+            }
+            .scroll {
+                overflow: scroll;
+            }
+            .auto {
+                overflow: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container visible">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                maxime ab aperiam laborum corrupti sint nostrum qui fuga
+                exercitationem optio dignissimos, iste aliquid fugit? Molestias
+                dolor aut id quasi ratione.
+            </p>
+        </div>
+        <div class="container hidden">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius
+                reiciendis iste amet est dolorum illum saepe voluptate sit
+                tempore perferendis consequatur natus dolores quae repudiandae
+                asperiores recusandae iure, esse voluptatum?
+            </p>
+        </div>
+        <div class="container scroll">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
+                provident quos officia voluptatem ipsa libero! Iste, eligendi.
+                Reiciendis placeat, molestias sunt tempora nihil, architecto
+                maiores possimus perspiciatis temporibus sequi in!
+            </p>
+        </div>
+        <div class="container auto">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
+                provident quos officia voluptatem ipsa libero! Iste, eligendi.
+                Reiciendis placeat, molestias sunt tempora nihil, architecto
+                maiores possimus perspiciatis temporibus sequi in!
+            </p>
+        </div>
+    </body>
+</html>

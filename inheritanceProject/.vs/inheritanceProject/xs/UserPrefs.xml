@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{9BCF4CA4-212F-4A3A-825C-462161B311DD}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.inheritanceProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="inheritanceProject/Program.cs">
+    <Files>
+      <File FileName="inheritanceProject/Program.cs" Line="5" Column="9" />
+      <File FileName="inheritanceProject/Hayvan.cs" Line="11" Column="38" />
+      <File FileName="inheritanceProject/Kedi.cs" Line="13" Column="1" />
+      <File FileName="inheritanceProject/Kus.cs" Line="13" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="inheritanceProject" expanded="True">
+            <Node name="inheritanceProject" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="hiyerarsi.css" />
+        <title>Hiyerarşi</title>
+        <style>
+            /* Baskınlık Sırası */
+            p {
+                color: blue;
+            }
+
+            .param {
+                color: yellow;
+            }
+
+            #para {
+                color: brown;
+            }
+
+            /* Style uygulama genelden özele olmalıdır*/
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                color: blue;
+            }
+            p {
+                font-family: 'Courier New', Courier, monospace;
+                color: red;
+            }
+            .param {
+                font-family: 'Times New Roman', Times, serif;
+                color: brown;
+            }
+            #para {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                    sans-serif;
+                color: purple;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="para" class="param">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+            ipsa! Excepturi, nisi vitae. Est vel officia aspernatur aliquid, sed
+            veritatis non dolores, repellendus rem, sit ratione consectetur!
+            Accusantium, quia neque.
+        </p>
+        <p class="param">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+            ipsa! Excepturi, nisi vitae. Est vel officia aspernatur aliquid, sed
+            veritatis non dolores, repellendus rem, sit ratione consectetur!
+            Accusantium, quia neque.
+        </p>
+    </body>
+</html>

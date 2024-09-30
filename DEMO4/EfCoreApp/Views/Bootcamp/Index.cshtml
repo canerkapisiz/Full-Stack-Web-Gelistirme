@@ -1,0 +1,33 @@
+@model IEnumerable<Bootcamp>
+
+<div class="row container">
+    <div class="d-flex justify-content-between align-items-center mb-5">
+        <a asp-controller="Bootcamp" asp-action="Create" class="btn btn-primary">Bootcamp Ekle</a>
+        <hr>
+        <div class="col-md-6 mb-3">
+            <form asp-action="Index" asp-controller="Bootcamp" method="get">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Bootcamp adı ile ara" name="searchString">
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-secondary">Ara</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    @foreach (var bootcamp in Model)
+    {
+        <div class="col-md-3 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="~/img/@bootcamp.Image" alt="" class="card-img top img-fluid"
+                    style="max-height: 200px; object-fit: cover;">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">@bootcamp.BootcampName</h5>
+                <h5 class="card-title">@bootcamp.Egitmen.AdSoyad</h5>
+                <a asp-controller="Bootcamp" asp-action="Profile" asp-route-id="@bootcamp.BootcampId"
+                    class="btn btn-primary">Detay</a>
+            </div>
+        </div>
+    }
+</div>

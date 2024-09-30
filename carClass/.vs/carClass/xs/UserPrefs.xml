@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{57E97B61-016A-4618-AF85-D5AEE2B1D73B}|Default">
+  <MonoDevelop.Ide.ItemProperties.carClass PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="carClass/Program.cs">
+    <Files>
+      <File FileName="carClass/Program.cs" Line="34" Column="28" />
+      <File FileName="carClass/Arac.cs" Line="16" Column="6" />
+      <File FileName="carClass/AracYonetim.cs" Line="45" Column="55" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="carClass" expanded="True">
+            <Node name="carClass" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

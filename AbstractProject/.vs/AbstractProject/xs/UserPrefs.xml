@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{F7F29794-C09B-4006-B7AB-98FCF7B0DDDD}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AbstractProject/Program.cs">
+    <Files>
+      <File FileName="AbstractProject/Program.cs" Line="16" Column="2" />
+      <File FileName="AbstractProject/Dikdortgen.cs" Line="21" Column="45" />
+      <File FileName="AbstractProject/Kare.cs" Line="9" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AbstractProject" expanded="True">
+            <Node name="AbstractProject" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AbstractProject PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

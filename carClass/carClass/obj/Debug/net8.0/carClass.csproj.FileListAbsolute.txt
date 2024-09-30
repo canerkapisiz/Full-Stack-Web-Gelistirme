@@ -1,0 +1,14 @@
+/Users/canerkapisiz/Full Stack/carClass/carClass/bin/Debug/net8.0/carClass
+/Users/canerkapisiz/Full Stack/carClass/carClass/bin/Debug/net8.0/carClass.deps.json
+/Users/canerkapisiz/Full Stack/carClass/carClass/bin/Debug/net8.0/carClass.runtimeconfig.json
+/Users/canerkapisiz/Full Stack/carClass/carClass/bin/Debug/net8.0/carClass.dll
+/Users/canerkapisiz/Full Stack/carClass/carClass/bin/Debug/net8.0/carClass.pdb
+/Users/canerkapisiz/Full Stack/carClass/carClass/obj/Debug/net8.0/carClass.GeneratedMSBuildEditorConfig.editorconfig
+/Users/canerkapisiz/Full Stack/carClass/carClass/obj/Debug/net8.0/carClass.AssemblyInfoInputs.cache
+/Users/canerkapisiz/Full Stack/carClass/carClass/obj/Debug/net8.0/carClass.AssemblyInfo.cs
+/Users/canerkapisiz/Full Stack/carClass/carClass/obj/Debug/net8.0/carClass.csproj.CoreCompileInputs.cache
+/Users/canerkapisiz/Full Stack/carClass/carClass/obj/Debug/net8.0/carClass.dll
+/Users/canerkapisiz/Full Stack/carClass/carClass/obj/Debug/net8.0/refint/carClass.dll
+/Users/canerkapisiz/Full Stack/carClass/carClass/obj/Debug/net8.0/carClass.pdb
+/Users/canerkapisiz/Full Stack/carClass/carClass/obj/Debug/net8.0/carClass.genruntimeconfig.cache
+/Users/canerkapisiz/Full Stack/carClass/carClass/obj/Debug/net8.0/ref/carClass.dll

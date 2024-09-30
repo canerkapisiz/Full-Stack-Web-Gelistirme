@@ -1,0 +1,39 @@
+﻿@model ProductViewModel
+
+<div class="card card-body my-3">
+    <form asp-action="Index" method="get">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <select class="form-select" name="category"
+                        asp-items="@(new SelectList(Repository.Categories, "CategoryId", "Name",Model.SelectedCategory))">
+                        <option value="0">Hepsi</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-success">Filtrele</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="row container">
+    @foreach (var book in @Model.Products)
+    {
+        @if (book.IsActive)
+        {
+            <div class="col-md-3 mb-2" style="width: 18rem;">
+                <div class="card">
+                    <img src="~/img/@book.Image" alt="" class="card-img-top img-fluid"
+                        style="height: 200px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">@book.BookName</h5>
+                        <p class="card-text">Sayfa: @book.PageCount</p>
+                        <a asp-controller="Home" asp-action="Details" asp-route-id="@book.BookId"
+                            class="btn btn-success">Detay</a>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>

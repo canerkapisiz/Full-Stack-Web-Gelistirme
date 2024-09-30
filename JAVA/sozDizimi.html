@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var oldVariable = 15.5;
+            let newVariable = 'Yeni Tanimlama';
+            const constantVariable = 'Sabit Deger';
+
+            console.log(typeof newVariable);
+
+            let integerString = '123';
+            let numberFromString = Number(integerString);
+            console.log(typeof integerString);
+
+            //Verilen sayiyi en yakin tam sayiya yuvarlar
+            console.log(Math.round(4.7)); //5
+
+            //Verilen sayiyi her zaman buyuk tam sayiya yuvarlar
+            console.log(Math.ceil(4.7)); //5
+
+            //Verilen sayiyi her zaman kucuk tam sayiya yuvarlar
+            console.log(Math.floor(4.7)); //4
+
+            //0 dahil 1 haric rastgele bir sayi uretir
+            console.log(Math.random());
+
+            //Verilen sayi dizisindeki en buyugu bulur
+            console.log(Math.max(15, 56, 25, 55)); //56
+
+            //Verilen sayi dizisindeki en kucugu bulur
+            console.log(Math.min(15, 56, 25, 55)); //15
+
+            let exampleString = 'Hello World!';
+
+            console.log(exampleString);
+            console.log(exampleString.toLowerCase());
+            console.log(exampleString.toUpperCase());
+            console.log(exampleString.slice(0, 7)); //Hello W
+
+            //Verilen string degeri bosluktan dizi olarak ayirir
+            console.log(exampleString.split(' '));
+
+            let ad = 'Ahmet';
+            let mesaj = `Merhaba ${ad}`;
+            console.log(mesaj);
+
+            let fruits = ['Apple', 'Banana', 'Water', 'Cola'];
+            let count = fruits.push('Orange');
+            let last = fruits.pop();
+            let first = fruits.shift();
+            let newLenght = fruits.unshift('Apple');
+            let citrus = fruits.slice(1, 3);
+            console.log(citrus);
+
+            let araba = {
+                marka: ' Toyota',
+                model: 'Corolla',
+                yil: 2020,
+            };
+
+            console.log(araba['marka']);
+
+            let now = new Date();
+            console.log(now.getFullYear());
+            console.log(now.getMonth());
+            console.log(now.getDate());
+            console.log(now.getDay());
+        </script>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+@model Bootcamp
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="text-center mb-3">
+                <img src="~/img/@Model.Image" alt="" class="rounded-circle img-thumbnail"
+                    style="width: 200px; height: 200px;">
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Bootcamp Bilgileri</h4>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">@Model.BootcampName</h2>
+                </div>
+                <div class="m-3">
+                    <a asp-controller="Bootcamp" asp-action="Edit" asp-route-id="@Model.BootcampId"
+                        class="btn btn-primary"> Düzenle</a>
+                    <a href="#" onclick="confirmDelete(@Model.BootcampId)" class="btn btn-danger">Sil</a>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card-header">
+                    <h4 class="card-title">Bootcampe KAyıtlı Olan Öğrenci Bilgileri</h4>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        @foreach (var item in Model.BootcampKayits)
+                        {
+                            <li>@item.Ogrenci.AdSoyad</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function confirmDelete(ogrenciId) {
+            if (confirm('Bootcampi silmek istiyor musunuz?')) {
+                fetch('@Url.Action("Delete", "Bootcamp")/' + ogrenciId, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'aplication/json',
+                        'X-Requested-Width': 'XMLHttpRequest'
+                    }
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            window.location.href = '@Url.Action("Index", "Bootcamp")';
+                        } else {
+                            alert('Silme işlemi sırasında hata oluştu.');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Silme işlemi sırasında hata oluştu', error)
+                        alert('Silme işlemi sırasında hata oluştu.');
+                    })
+            }
+        }
+    </script>

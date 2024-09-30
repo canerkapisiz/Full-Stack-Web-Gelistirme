@@ -1,0 +1,14 @@
+/Users/canerkapisiz/Full Stack/myFirstProject/myFirstProject/bin/Debug/net8.0/myFirstProject
+/Users/canerkapisiz/Full Stack/myFirstProject/myFirstProject/bin/Debug/net8.0/myFirstProject.deps.json
+/Users/canerkapisiz/Full Stack/myFirstProject/myFirstProject/bin/Debug/net8.0/myFirstProject.runtimeconfig.json
+/Users/canerkapisiz/Full Stack/myFirstProject/myFirstProject/bin/Debug/net8.0/myFirstProject.dll
+/Users/canerkapisiz/Full Stack/myFirstProject/myFirstProject/bin/Debug/net8.0/myFirstProject.pdb
+/Users/canerkapisiz/Full Stack/myFirstProject/myFirstProject/obj/Debug/net8.0/myFirstProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/canerkapisiz/Full Stack/myFirstProject/myFirstProject/obj/Debug/net8.0/myFirstProject.AssemblyInfoInputs.cache
+/Users/canerkapisiz/Full Stack/myFirstProject/myFirstProject/obj/Debug/net8.0/myFirstProject.AssemblyInfo.cs
+/Users/canerkapisiz/Full Stack/myFirstProject/myFirstProject/obj/Debug/net8.0/myFirstProject.csproj.CoreCompileInputs.cache
+/Users/canerkapisiz/Full Stack/myFirstProject/myFirstProject/obj/Debug/net8.0/myFirstProject.dll
+/Users/canerkapisiz/Full Stack/myFirstProject/myFirstProject/obj/Debug/net8.0/refint/myFirstProject.dll
+/Users/canerkapisiz/Full Stack/myFirstProject/myFirstProject/obj/Debug/net8.0/myFirstProject.pdb
+/Users/canerkapisiz/Full Stack/myFirstProject/myFirstProject/obj/Debug/net8.0/myFirstProject.genruntimeconfig.cache
+/Users/canerkapisiz/Full Stack/myFirstProject/myFirstProject/obj/Debug/net8.0/ref/myFirstProject.dll

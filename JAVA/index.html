@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            console.log('Merhaba Dunya!');
+            console.error('Bu bir hata mesajidir');
+            console.warn('bu bir uyari mesajidir');
+            console.info('bu bir bilgi mesajidir');
+
+            alert('Bu bir alert kutusudur!');
+
+            console.table([
+                { ad: 'Ahmet', yas: 30 },
+                { ad: 'Mehmet', yas: 35 },
+            ]);
+
+            console.group('Kullanici Detaylari');
+            console.log('Ad: Ahmet');
+            console.log('Yas: 30');
+            console.groupEnd();
+
+            console.assert(1 === 2, "Burasi yanlis, 1 esitdegildir 2'ye");
+        </script>
+    </body>
+</html>
